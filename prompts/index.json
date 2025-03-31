@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "categories": {
+    "assistants": {
+      "description": "Prompts for instructing AI assistants in various roles",
+      "files": {
+        "productivity.md": {
+          "description": "Prompts for managing tasks, schedules, focus, etc.",
+          "prompts": [
+            {
+              "title": "Daily Planning Assistant",
+              "tags": ["productivity", "planning", "time-management", "daily-routine"],
+              "description": "Prompt for AI to help create a detailed daily schedule with time blocks"
+            },
+            {
+              "title": "Weekly Review and Planning",
+              "tags": ["productivity", "review", "planning", "goal-setting"],
+              "description": "Prompt for AI to facilitate weekly reviews and upcoming week planning"
+            },
+            {
+              "title": "Focus Session Facilitator",
+              "tags": ["productivity", "focus", "pomodoro", "deep-work"],
+              "description": "Prompt for AI to guide through focused work sessions with the Pomodoro technique"
+            },
+            {
+              "title": "Project Breakdown Assistant",
+              "tags": ["productivity", "project-management", "task-breakdown", "planning"],
+              "description": "Prompt for AI to help break down projects into manageable tasks and deliverables"
+            }
+          ]
+        },
+        "coding.md": {
+          "description": "Prompts for coding assistants (e.g., pair programming, refactoring)",
+          "prompts": [
+            {
+              "title": "Code Refactoring Assistant",
+              "tags": ["coding", "refactoring", "code-cleanup", "technical-debt"],
+              "description": "Prompt for AI to review legacy code and suggest modern refactoring improvements"
+            },
+            {
+              "title": "Pair Programming Guide",
+              "tags": ["coding", "pair-programming", "collaboration", "code-review"],
+              "description": "Prompt for AI to act as a collaborative pair programming partner"
+            },
+            {
+              "title": "Algorithm Design and Optimization",
+              "tags": ["coding", "algorithms", "optimization", "problem-solving"],
+              "description": "Prompt for AI to help design and optimize algorithms for specific problems"
+            },
+            {
+              "title": "Code Documentation Generator",
+              "tags": ["coding", "documentation", "technical-writing", "code-quality"],
+              "description": "Prompt for AI to create comprehensive documentation for code"
+            }
+          ]
+        },
+        "research.md": {
+          "description": "Prompts for AI to help gather, summarize, or analyze information",
+          "prompts": [
+            {
+              "title": "Literature Review Assistant",
+              "tags": ["research", "literature-review", "academic", "summarization"],
+              "description": "Prompt for AI to help conduct a structured literature review on a specific topic"
+            },
+            {
+              "title": "Data Analysis and Insights Generator",
+              "tags": ["research", "data-analysis", "insights", "pattern-recognition"],
+              "description": "Prompt for AI to analyze datasets and generate insights"
+            },
+            {
+              "title": "Comparative Analysis Framework",
+              "tags": ["research", "comparison", "analysis", "decision-making"],
+              "description": "Prompt for AI to create a framework for comparing multiple options"
+            },
+            {
+              "title": "Trend Analysis and Future Prediction",
+              "tags": ["research", "trends", "forecasting", "future-analysis"],
+              "description": "Prompt for AI to analyze current trends and predict future developments"
+            }
+          ]
+        }
+      }
+    },
+    "tools": {
+      "description": "Prompts for controlling automated tools and processes",
+      "files": {
+        "github.md": {
+          "description": "Prompts to control GitHub automation",
+          "prompts": [
+            {
+              "title": "Repository Setup and Structure",
+              "tags": ["github", "repository-setup", "project-structure", "automation"],
+              "description": "Prompt for AI to create and set up a new GitHub repository with specified structure"
+            },
+            {
+              "title": "Pull Request Review Assistant",
+              "tags": ["github", "code-review", "pull-request", "quality-assurance"],
+              "description": "Prompt for AI to thoroughly review GitHub pull requests"
+            },
+            {
+              "title": "GitHub Actions Workflow Creator",
+              "tags": ["github", "github-actions", "ci-cd", "automation"],
+              "description": "Prompt for AI to create GitHub Actions workflows for specific tasks"
+            },
+            {
+              "title": "Issue Triage and Management Bot",
+              "tags": ["github", "issue-management", "project-management", "automation"],
+              "description": "Prompt for AI to help set up a system for triaging and managing GitHub issues"
+            }
+          ]
+        },
+        "shell.md": {
+          "description": "Prompts to instruct CLI-based AI agents",
+          "prompts": [
+            {
+              "title": "Advanced File Operations Assistant",
+              "tags": ["shell", "file-management", "automation", "batch-processing"],
+              "description": "Prompt for AI to help with complex file operations in the command line"
+            },
+            {
+              "title": "System Monitoring and Maintenance",
+              "tags": ["shell", "system-admin", "monitoring", "maintenance"],
+              "description": "Prompt for AI to create shell scripts for system monitoring and maintenance"
+            },
+            {
+              "title": "Data Processing Pipeline",
+              "tags": ["shell", "data-processing", "ETL", "automation"],
+              "description": "Prompt for AI to create a shell-based data processing pipeline for ETL operations"
+            },
+            {
+              "title": "Development Environment Bootstrapper",
+              "tags": ["shell", "development-environment", "setup", "configuration"],
+              "description": "Prompt for AI to create a shell script that sets up a complete development environment"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "meta": {
+    "last_updated": "2025-03-31",
+    "prompt_count": 20,
+    "category_count": 2,
+    "file_count": 5
+  },
+  "tags": [
+    "productivity", "planning", "time-management", "daily-routine", "review", "goal-setting", 
+    "focus", "pomodoro", "deep-work", "project-management", "task-breakdown",
+    "coding", "refactoring", "code-cleanup", "technical-debt", "pair-programming", 
+    "collaboration", "code-review", "algorithms", "optimization", "problem-solving", 
+    "documentation", "technical-writing", "code-quality",
+    "research", "literature-review", "academic", "summarization", "data-analysis", 
+    "insights", "pattern-recognition", "comparison", "decision-making", "trends", 
+    "forecasting", "future-analysis",
+    "github", "repository-setup", "project-structure", "automation", "pull-request", 
+    "quality-assurance", "github-actions", "ci-cd", "issue-management",
+    "shell", "file-management", "batch-processing", "system-admin", "monitoring", 
+    "maintenance", "data-processing", "ETL", "development-environment", "setup", "configuration"
+  ]
+}
